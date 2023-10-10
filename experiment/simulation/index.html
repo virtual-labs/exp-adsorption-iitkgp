@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+  <title>Water Flow Simulation</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-		<!-- Your code goes here-->
+ 
+  <div class="img-container"><!--img container div start--> 
+					       
+	<img class="img-fluid" id="plant"  src="./images/stage.png "/>
+	<img class="img-fluid" id="plant0"  src="./images/0.png "/>
+    <img class="img-fluid" id="plant1"  src="./images/1.png "/>	
+	<img class="img-fluid" id="plant2"  src="./images/2.png "/>
+	<img class="img-fluid" id="plant3"  src="./images/3.png "/>
+	<img class="img-fluid" id="plant4"  src="./images/4.png "/>
+	<img class="img-fluid" id="plant5"  src="./images/5.png "/>
+	<img class="img-fluid" id="plant6"  src="./images/6.png "/>
+	<img class="img-fluid" id="plant7"  src="./images/7.png "/>
+	<img class="img-fluid" id="plant8"  src="./images/8.png "/>
+	
+	
+  
+  
+	
+	<img src="./images/drop.gif" class="drop" id="drop"> <!--lower pipe drop-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+	
+	<div id="rectangle"></div>
+	
+  <!--outlet pipe -->
+	  
+	<div  id="wpipe"></div>
+	<div  id="wpipe2"></div>
+	<div  id="wpipe3"></div>
+	
+	<div  id="wpipe5"></div>
+	<div  id="wpipe6"></div>
+
+<!--inlet pipe -->
+	<div  id="wpipe7"></div>
+	<div  id="wpipe8"></div>
+	<div  id="wpipe9"></div>
+  
+  
+  <img src="./images/water_bubble.gif" class="basin" id="basin">
+   <img src="./images/water_bubble.gif" class="basin2" id="basin2">
+  
+ 
+   
+   
+	<!--<button onclick="moveUp();tankflow()" class="button" ><img src="./images/knob1.png"></button> -->
+   
+   
+ <button onclick="tankflow()" class="button" ><img src="./images/knob1.png"></button>
+ <button onclick="uflow()" class="gbutton" ><img src="./images/knob2.png"></button>
+  
+  </div>
+
+ 
+
+  
+  
+  
+  <script src="script.js"></script>
 </body>
 </html>

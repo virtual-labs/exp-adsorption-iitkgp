@@ -2,12 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Adsorption of gases on solid surface is exothermic because:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Enthalpy is positive",
+        "b": "Entropy decreases",
+        "c": "Entropy increases",
+        "d": "Free energy increases"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the adsorption is due to the weak van der waals forces between adsorbent and adsorbate, it is termed as",
+      "answers": {
+        "a": "Physisorption",
+        "b": "Chemisorption",
+        "c": "Desorption",
+        "d": "Pseudo adsorption"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +36,46 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The amount of gas adsorbed on a solid surface",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Increases with increase in the temperature",
+        "b": "Increases with decrease in the temperature",
+        "c": "Independent on temperature",
+        "d": "Cannot say"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The continuous zig-zag movement of colloidal particles in a dispersion medium is called",
+      "answers": {
+        "a": "Dispersion",
+        "b": "Tyndall effect",
+        "c": "Brownian movement",
+        "d": "Oscillation"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In Freundlich adsorption isotherm, the value of 1/n is:",
+      "answers": {
+        "a": "1 in case of physical adsorption",
+        "b": "1 in case of chemisorptions",
+        "c": "Between 0 and 1 in all cases",
+        "d": "Between 2 and 4 in all cases"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
