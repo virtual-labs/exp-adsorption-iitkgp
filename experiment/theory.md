@@ -5,16 +5,19 @@ Similar to surface tension, adsorption is a consequence of surface energy. In a 
 <p style="padding-bottom: 10px;"><b>Isotherms:</b> Adsorption is usually described through isotherms, that is, the amount of adsorbate on the adsorbent as a function of its pressure (if gas) or concentration (if liquid) at constant temperature. The quantity adsorbed is nearly always normalized by the mass of the adsorbent to allow comparison of different materials.  There are basically two well established types of adsorption isotherm: the Freundlich adsorption isotherm and the Langmuir adsorption isotherm.</p>
  <p style="text-align:left; font-size:18px; font-weight:bold;">Freundlich Isotherm:</p>
 <p style="padding-bottom: 10px;">The Freundlich equation or Freundlich adsorption isotherm is an adsorption isotherm, which is a curve relating the concentration of a solute on the surface of an adsorbent, to the concentration of the solute in the liquid with which it is in contact. In 1909, Freundlich gave an empirical expression representing the isothermal variation of Adsorption of a quantity of gas adsorbed by unit mass of solid adsorbent with pressure. This equation is known as Freundlich Adsorption Isotherm or Freundlich Adsorption equation.</p>
- <p style="padding-bottom: 10px;">The Freundlich Adsorption Isotherm is mathematically expressed as</p>
- <p style="padding-bottom: 10px;">`x/m=Kp^(1/n)`</p>
+<p style="padding-bottom: 10px;">The Freundlich Adsorption Isotherm is mathematically expressed as</p>
+ 
+$$\frac{x}{m}=Kp^ \frac{1}{n}$$
 <p style="padding-bottom: 10px;">
 It is also written as
-</p>
-<p style="padding-bottom: 10px;">`log(x/m)=logk+(1/n)logp`</p>
+
+$$log (\frac{x}{m})=logk+(\frac{1}{n})log \ p$$
 <p style="padding-bottom: 10px;">or</p>
-<p style="padding-bottom: 10px;">`x/m=Kc^(1/n)`</p>
+
+$$\frac{x}{m}=Kc^ \frac{1}{n}$$
 <p style="padding-bottom: 10px;">It is also written as</p>
- <p style="padding-bottom: 10px;">`log(x/m)=logk+(1/n)logc`</p>
+
+$$log(\frac{x}{m})=log \ k+(\frac{1}{n})log \ c$$
 <p style="padding-bottom: 10px;">where,<br>
 
 x = mass of adsorbate<br>
