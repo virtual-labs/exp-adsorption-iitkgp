@@ -1,0 +1,432 @@
+.img-container {
+    display: inline-block;
+    position: relative;
+
+}
+/* image slide*/
+.img-fluid{
+  display: none; 
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.img-fluid:first-child {
+  display: block;
+}
+
+
+
+.drop {
+	background-color:rgb(0 0 0 / 0%);
+	border: 2% solid none;
+	position: absolute;
+	width: 5%;
+					
+		
+}
+
+#drop{
+		top: 69%;
+		left: 31%;
+		z-index: 10;
+		height:0%;
+	
+}
+
+
+#rectangle {
+     width: 0.5%;
+    height: 3%;
+    background-color: red;
+    position: absolute;
+    bottom: 53.4%;
+    left: 68.8%;
+}
+
+
+
+
+
+.basin {
+	/*clip-path: polygon(60.71% 101%, 93.94% 91.44%, 97.69% 87.1%, 97% 48.87%, 98.71% 45.87%, 98.29% 46.87%, 5% 13.87%, 0% 86.1%, 5.45% 91.44%, 37.29% 100%); */
+	background-color:rgb(0 0 0 / 0%);
+	border: 2px solid none;
+	position: absolute;
+	width: 14.6%;
+	height: 0%;
+	opacity: 0.5;
+	
+}
+#basin{
+		bottom: 69.1%;
+		left: 56.9%;
+		z-index: 40;
+	
+}
+/* container jar	*/
+
+.basin2 {
+	background-color:rgb(0 0 0 / 0%);
+	border: 2px solid none;
+	position: absolute;
+	width: 2.9%;
+	height: 0%;
+	opacity: 0.5;
+	/* clip-path: inset(32% -17% 0% -12% round 37%);	*/
+clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 93% 95%, 65% 100%, 44% 100%, 23% 96%, 23% 28%);	
+		
+}
+
+
+#basin2{
+		bottom: 13.5%;
+		left: 31.7%;
+		z-index: 40;
+	
+}
+
+
+/* water flow in pipe1	*/
+
+.wpipe {
+	background-color:rgb(0 0 0 / 0%);
+	border: 2px solid none;
+	position: absolute;
+	
+	
+	/* clip-path: inset(32% -17% 0% -12% round 37%);	*/
+/*clip-path: polygon(45% 33%, 76% 31%, 94% 26%, 93% 95%, 65% 100%, 44% 100%, 23% 96%, 23% 28%);	*/
+		
+}
+
+
+#wpipe{
+		position: absolute;
+		bottom: 90.6%;
+		left: 59.3%;
+		z-index: 40;
+		height: 0%;
+	width: 1.4%;
+	background-color: powderblue;
+	opacity: 0.5;
+}
+
+#wpipe2{
+	position: absolute;
+    top: 5.5%;
+    right: 40%;
+    z-index: 40;
+    width: 0%;
+    height: 2%;
+    background-color: powderblue;
+	opacity: 0.5;
+		/*transform: rotate(270deg);*/
+	
+}
+
+#wpipe3{
+	position: absolute;
+	width: 1.2%;
+    background-color: powderblue;
+	
+		top: 7%;
+		left: 46%;
+		z-index: 100;
+		height: 0%;
+		opacity: 0.5;
+		
+	
+}
+
+/* water flow outlet pipe	*/
+
+#wpipe4{
+	position: absolute;
+	width: 1.2%;
+    background-color: powderblue;
+	
+		top: 58%;
+		left: 46%;
+		z-index: 40;
+		height: 0%;
+		opacity: 0.5; 
+		
+	
+}
+
+#wpipe5{
+		top: 67.6%;
+		right: 54%;
+		z-index: 40;
+		height: 2%;
+		position: absolute;
+	width: 0%;
+    background-color: powderblue;
+	opacity: 0.5;
+	
+}
+
+#wpipe6{
+		top: 67.7%;
+		right: 64%;
+		z-index: 40;
+		height: 2%;
+		position: absolute;
+	width: 0%;
+    background-color: powderblue;
+	opacity: 0.5;
+	
+}
+
+/* water flow inlet pipe	*/
+
+#wpipe7{
+		position: absolute;
+		bottom: 37.3%;
+		left: 68.4%;
+		z-index: 40;
+		height: 0%;
+	width: 1.2%;
+	background-color: powderblue;
+}
+
+#wpipe8{
+		    position: absolute;
+    bottom: 46%;
+    left: 68.3%;
+    z-index: 40;
+    height: 0%;
+    width: 1.2%;
+	background-color: powderblue;
+}
+#wpipe9{
+		    position: absolute;
+    bottom: 61.6%;
+    left: 68.3%;
+    z-index: 40;
+    height: 0%;
+    width: 1.2%;
+	background-color: powderblue;
+}
+
+
+	
+
+
+/*-----------------------------for vulv button to run program------------------------*/
+
+.button {
+  /*background-image: url(images/cancel.png); */
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color:rgb(0 0 0 / 0%);
+  /* put the height and width of your image here */
+  height: 59px;
+  width: 75px;
+  border: none;
+  position: absolute;
+  top: 61.5%;
+  left: 34.8%;
+  z-index: 100;
+}
+
+button span {
+  display: none;
+}
+
+
+.gbutton {
+  /*background-image: url(images/cancel.png); */
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color:rgb(0 0 0 / 0%);
+  /* put the height and width of your image here */
+  height: 59px;
+  width: 75px;
+  border: none;
+  position: absolute;
+  top: 53.4%;
+  left: 62.8%;
+  z-index: 100;
+}
+
+button span {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------for drop------------------------*/
+.dflow{
+	animation:dflow 14s linear forwards;	
+}
+
+@keyframes dflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 10%;}/*background-color:#0db4fd}*/
+}
+/*---------------------------------------------------------------------*/
+
+/*-----------------------------for dropstop------------------------*/
+.dflowstop{
+	animation:dflowstop 14s linear forwards;	
+}
+
+@keyframes dflowstop {
+  from {height: 23%;}/*background-color:white}*/
+  to   {height: 0%;}/*background-color:#0db4fd}*/
+}
+/*---------------------------------------------------------------------*/
+
+/*-----------------------------for open gas------------------------*/
+.uflow{
+	animation:uflow 4s linear forwards;	
+}
+
+@keyframes uflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 11%;}/*background-color:#0db4fd}*/
+}
+
+/*-----------------------------for indicator------------------------*/
+.iflow{
+	animation:iflow 4s linear forwards;	
+}
+
+@keyframes iflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 7%;}/*background-color:#0db4fd}*/
+}
+
+
+
+/*-------------------------------for upper tank--------------------------------------*/
+
+.bflow{
+	animation:bflow 24s linear forwards;	
+}
+
+@keyframes bflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 37%;}/*background-color:#0db4fd}*/
+}
+/*---------------------------------------------------------------------*/
+
+
+/*-------------------------------for lower tank--------------------------------------*/
+
+.lbflow{
+	animation:lbflow 60s infinite ease-in-out;
+	/*animation:lbflow 40s linear forwards; */
+    /* animation-iteration-count: 6;	*/
+}
+
+@keyframes lbflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 20%;}/*background-color:#0db4fd}*/
+}
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-----------------------------for bubble release------------------------*/
+.bubflow{
+	animation:bubflow 12s linear forwards;	
+}
+
+@keyframes bubflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 12%;}/*background-color:#0db4fd}*/
+}
+
+/*-----------------------------Wpipe up------------------------*/
+.wpuflow{
+	animation:wpuflow 4s linear forwards;	
+}
+
+@keyframes wpuflow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 4%;}/*background-color:#0db4fd}*/
+}
+
+
+/*-----------------------------Wpipe2 up------------------------*/
+.wpu2flow{
+	animation:wpu2flow 4s linear forwards;	
+}
+
+@keyframes wpu2flow {
+  from {width: 0%;}/*background-color:white}*/
+  to   {width: 14%;}/*background-color:#0db4fd}*/
+  }
+
+/*-----------------------------Wpipe3 up------------------------*/
+.wpu3flow{
+	animation:wpu3flow 4s linear forwards;	
+}
+
+@keyframes wpu3flow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 62.5%;}/*background-color:#0db4fd}*/
+}
+/*-----------------------------Wpipe4 up------------------------*/
+
+/*-----------------------------Wpipe5 up------------------------*/
+.wpu5flow{
+	animation:wpu5flow 4s linear forwards;	
+}
+
+@keyframes wpu5flow {
+  from {width: 0%;}/*background-color:white}*/
+  to   {width: 6%;}/*background-color:#0db4fd}*/
+}
+/*-----------------------------Wpipe6 up------------------------*/
+.wpu6flow{
+	animation:wpu6flow 4s linear forwards;	
+}
+
+@keyframes wpu6flow {
+  from {width: 0%;}/*background-color:white}*/
+  to   {width: 3%;}/*background-color:#0db4fd}*/
+}
+
+/*-----------------------------Wpipe7 up------------------------*/
+.wpu7flow{
+	animation:wpu7flow 4s linear forwards;	
+}
+
+@keyframes wpu7flow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 3.7%;}/*background-color:#0db4fd}*/
+}
+/*-----------------------------Wpipe8 up------------------------*/
+.wpu8flow{
+	animation:wpu8flow 4s linear forwards;	
+}
+
+@keyframes wpu8flow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 5.6%;}/*background-color:#0db4fd}*/
+}
+
+/*-----------------------------Wpipe9 up------------------------*/
+.wpu9flow{
+	animation:wpu9flow 4s linear forwards;	
+}
+
+@keyframes wpu9flow {
+  from {height: 0%;}/*background-color:white}*/
+  to   {height: 6%;}/*background-color:#0db4fd}*/
+}
+
+
