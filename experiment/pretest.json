@@ -2,12 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Adsorption of gases on solid surface is exothermic because:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Enthalpy is positive",
+        "b": "Entropy decreases",
+        "c": "Entropy increases",
+        "d": "Free energy increases"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Smoke is a dispersion of _________.",
+      "answers": {
+        "a": "A solid in gas",
+        "b": "A gas in solid",
+        "c": "A gas in gas",
+        "d": "A liquid in gas"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,12 +36,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following empirical equations represents the Freundlich adsorption curve?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "x.m = k p1/n",
+        "b": "x/m = k p1/n",
+        "c": "m/x = k p1/n",
+        "d": "x/m = k / p1/n"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,7 +49,41 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which among the following is an example of Adsorption?",
+      "answers": {
+        "a": "Silica gel in contact with water vapours",
+        "b": "Misty windows",
+        "c": "Painting",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Identify the Incorrect statement among the following regarding Brownian movement.",
+      "answers": {
+        "a": "It is observed up to particle size of 0.5 microns",
+        "b": "Depends upon temperature",
+        "c": "It is the kinetic property of sol",
+        "d": "It is independent of wave length of light used"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]
