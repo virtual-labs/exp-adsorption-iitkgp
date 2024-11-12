@@ -7,5 +7,5 @@
 
 
 #### Video Lectures
-- [Encoders and Decoders](http://nptel.ac.in/courses/117106114)
+- [Lec 24: Adsorption](https://archive.nptel.ac.in/courses/103/103/103103154/)
 
